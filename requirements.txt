@@ -1,0 +1,14 @@
+requirements
+# Starter kit only. Your own solution will need more.
+ultralytics>=8.3.0
+opencv-python>=4.10.0
+numpy>=1.26.0
+scipy>=1.13.0
+
+# For the appearance / re-identification step you'll need to add yourself:
+# torch, torchvision
+# torchreid  (OSNet and friends)
+#
+# Check the licence on any pre-trained ReID checkpoint before you rely on it.
+# Several of the well-known ones are CC BY-NC-SA — fine for a hackathon, not
+# fine for anything commercial. Say which you used in your README.
